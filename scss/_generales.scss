@@ -111,9 +111,9 @@ footer {
     align-items: center;
     justify-content: center;
 
-    p{
+    p {
         margin-top: 5px;
-        
+
     }
 
 
@@ -123,17 +123,17 @@ footer {
 
 //Card
 
-.card1{
+.card1 {
 
 
     border-color: #92d1d1;
-    box-shadow: 0 0 5px  #92d1d1 ;
+    box-shadow: 0 0 5px #92d1d1;
 }
 
 
 //Contenedores - Box
 
-.rrss{
+.rrss {
 
     display: flex;
     flex-direction: row;
@@ -144,26 +144,27 @@ footer {
 
 }
 
-.bTitle{
+.bTitle {
 
-    background-color: #92d1d1 ;
+    background-color: #92d1d1;
     height: 100px;
     width: 100%;
     border-radius: 5px;
-    box-shadow:  0 0 10px #ebc3db;
+    box-shadow: 0 0 10px #ebc3db;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 
-    h2{
+    h2 {
         color: white;
-        text-shadow: 0 0 5px #ebc3db ;
+        text-shadow: 0 0 5px #ebc3db;
 
     }
 
 }
-#Servicios{
+
+#Servicios {
 
     display: flex;
     flex-direction: row;
@@ -172,21 +173,34 @@ footer {
 
 }
 
-.carrito{
+.carrito {
 
     margin-top: 20px;
 
-    h5{
+    div {
 
-        color: #c85e9c;
-        text-shadow: 0 0 10px white ;
+        div {
 
+            div {
+                div {
+
+                    h5 {
+
+                        color: #c85e9c;
+                        text-shadow: 0 0 10px white;
+
+                    }
+
+                    p {
+
+                        text-shadow: 0 0 10px white;
+
+                    }
+
+                }
+            }
+        }
     }
 
-    p{
-
-        text-shadow: 0 0 10px white ;
-
-    }
 
 }

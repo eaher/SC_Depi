@@ -17,6 +17,7 @@ header {
   height: 100px;
   width: auto;
   background-color: white;
+  color: black;
 }
 
 nav {
@@ -45,7 +46,7 @@ main div p {
 
 section {
   grid-area: section;
-  min-height: 0px;
+  min-height: 600px;
   width: auto;
   background-color: white;
   padding-top: 10px;
@@ -84,6 +85,40 @@ footer p {
   align-items: center;
   padding: 10px;
   margin-top: 10px;
+}
+
+.bTitle {
+  background-color: #92d1d1;
+  height: 100px;
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #ebc3db;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.bTitle h2 {
+  color: white;
+  text-shadow: 0 0 5px #ebc3db;
+}
+
+#Servicios {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.servicios {
+  margin-top: 20px;
+}
+.servicios h5 {
+  color: #c85e9c;
+  text-shadow: 0 0 10px white;
+}
+.servicios p {
+  text-shadow: 0 0 10px white;
 }
 
 .icono {

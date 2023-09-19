@@ -110,14 +110,14 @@ footer p {
   justify-content: flex-start;
 }
 
-.servicios {
+.carrito {
   margin-top: 20px;
 }
-.servicios h5 {
+.carrito h5 {
   color: #c85e9c;
   text-shadow: 0 0 10px white;
 }
-.servicios p {
+.carrito p {
   text-shadow: 0 0 10px white;
 }
 

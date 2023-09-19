@@ -78,6 +78,18 @@ footer p {
   box-shadow: 0 0 5px #92d1d1;
 }
 
+.card2 {
+  margin-left: 10px;
+  border-color: #ebc3db;
+  box-shadow: 0 0 5px #ebc3db;
+}
+.card2 img {
+  height: 180;
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
 .rrss {
   display: flex;
   flex-direction: row;
@@ -108,17 +120,32 @@ footer p {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: flex-start;
+  margin-top: 70px;
 }
 
 .carrito {
   margin-top: 20px;
 }
-.carrito h5 {
+.carrito div div div div h5 {
   color: #c85e9c;
   text-shadow: 0 0 10px white;
 }
-.carrito p {
+.carrito div div div div p {
   text-shadow: 0 0 10px white;
+}
+
+.buttonCarr {
+  background-color: #92d1d1;
+  border-color: #92d1d1;
+  border-radius: 5px;
+  padding: 5px;
+  box-shadow: none;
+  color: white;
+  width: 100px;
+}
+.buttonCarr:hover {
+  background-color: #ebc3db;
+  border-color: #ebc3db;
 }
 
 .icono {

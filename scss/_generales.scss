@@ -131,6 +131,22 @@ footer {
 }
 
 
+.card2 {
+
+margin-left: 10px;
+border-color: #ebc3db;
+box-shadow: 0 0 5px #ebc3db ;
+
+img{
+    height:180 ;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+}
+
+
 //Contenedores - Box
 
 .rrss {
@@ -170,6 +186,7 @@ footer {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
+    margin-top: 70px;
 
 }
 
@@ -201,6 +218,29 @@ footer {
             }
         }
     }
+
+
+}
+
+
+
+//Buttons
+.buttonCarr{
+
+    background-color:#92d1d1 ;
+    border-color: #92d1d1;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: none;
+    color: white;
+    width: 100px;
+
+    &:hover{
+        background-color: #ebc3db;
+        border-color: #ebc3db;
+    }
+
+
 
 
 }

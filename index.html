@@ -15,6 +15,7 @@
 
 <body>
 
+
     <header class="container-fluid">
 
 
@@ -37,7 +38,7 @@
                 <div class="navbar-nav ">
                     <a class="nav-link" aria-current="page" href="#">Home</a>
                     <a class="nav-link" href="#Servicios">Servicios</a>
-                    <a class="nav-link" href="#">Contacto</a>
+                    <a class="nav-link" href="#Contacto">Contacto</a>
 
                 </div>
             </div>
@@ -217,23 +218,27 @@
 
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        <h5 class="card-title">Piernas Completo</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
                             card's content.</p>
-                            <button class="buttonCarr">Agregar</button>
+                        <span class="precio">$3500</span>
+                        <button class="botonCompra">Agregar</button>
                     </div>
                 </div>
-    
+
                 <div class="card col card2" style="width: 18rem;">
                     <div>
                         <img src="./img/Serv2.png" alt="">
 
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        <h5 class="card-title">Axila</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
                             card's content.</p>
-                            <button class="buttonCarr">Agregar</button>
+                        <span class="precio">$2000</span>
+                        <button class="botonCompra">Agregar</button>
                     </div>
                 </div>
 
@@ -243,10 +248,12 @@
 
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        <h5 class="card-title">Facial</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
                             card's content.</p>
-                            <button class="buttonCarr">Agregar</button>
+                        <span class="precio">$7000</span>
+                        <button class="botonCompra">Agregar</button>
                     </div>
                 </div>
 
@@ -256,15 +263,17 @@
 
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        <h5 class="card-title">Masajes</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
                             card's content.</p>
-                        <button class="buttonCarr">Agregar</button>
+                        <span class="precio">$5000</span>
+                        <button class="botonCompra">Agregar</button>
                     </div>
                 </div>
 
             </div>
-        
+
 
 
 
@@ -275,6 +284,40 @@
 
     </section>
 
+   
+
+        <div class="container carritoCompras" >
+            <h2>Carrito</h2>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <td></td>
+                        <td>Producto</td>
+                        <td>Cantidad</td>
+                        <td>Precio</td>
+                        <td></td>
+                    </tr>
+                </thead>
+                <tbody id="tbody">
+
+                </tbody>
+         
+            </table>
+            
+        </div>
+        
+        <div>
+
+         <button class="botonCarrito2" id="finalizarCompra">Finalizar Compra</button>
+
+        </div>
+
+        <div>
+
+            <button class="botonCarrito2" id="limpiarCarrito">Limpiar Carrito</button>
+   
+           </div>
+   
 
 
 
@@ -282,8 +325,7 @@
 
 
 
-
-    <footer>
+    <footer id="Contacto">
 
 
 
@@ -306,6 +348,12 @@
 
 
     </footer>
+
+
+    <script src="./js/sc.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

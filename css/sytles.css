@@ -73,6 +73,27 @@ footer p {
   margin-top: 5px;
 }
 
+.precio {
+  margin: 10px;
+  font-weight: bold;
+  text-shadow: 0 0 10px #ebc3db;
+}
+
+.sectionPag {
+  grid-area: section;
+  min-height: 500px;
+  width: auto;
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .card1 {
   border-color: #92d1d1;
   box-shadow: 0 0 5px #92d1d1;
@@ -88,6 +109,15 @@ footer p {
   width: 100%;
   margin-top: 10px;
   border-radius: 5px;
+}
+
+.aPagar {
+  color: white;
+  background-color: #ebc3db;
+  box-shadow: 0 0 10px #92d1d1;
+  font-weight: bold;
+  min-height: 30px;
+  padding: 10px;
 }
 
 .rrss {
@@ -120,7 +150,7 @@ footer p {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: flex-start;
-  margin-top: 70px;
+  margin-top: 100px;
 }
 
 .carrito {
@@ -134,7 +164,7 @@ footer p {
   text-shadow: 0 0 10px white;
 }
 
-.buttonCarr {
+.botonCompra {
   background-color: #92d1d1;
   border-color: #92d1d1;
   border-radius: 5px;
@@ -142,8 +172,51 @@ footer p {
   box-shadow: none;
   color: white;
   width: 100px;
+  margin-left: 50px;
 }
-.buttonCarr:hover {
+.botonCompra:hover {
+  background-color: #ebc3db;
+  border-color: #ebc3db;
+}
+
+.botonCarrito {
+  background-color: #92d1d1;
+  border-color: #92d1d1;
+  border-radius: 5px;
+  padding: 5px;
+  box-shadow: none;
+  color: white;
+  width: 100px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+.botonCarrito:hover {
+  background-color: #ebc3db;
+  border-color: #ebc3db;
+}
+
+.carritoCompras {
+  min-height: 200px;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+.carritoCompras h2 {
+  font-size: 20px;
+  text-shadow: 0 0 10px #c85e9c;
+}
+
+.botonCarrito2 {
+  background-color: #92d1d1;
+  border-color: #92d1d1;
+  border-radius: 5px;
+  padding: 5px;
+  box-shadow: none;
+  color: white;
+  width: 200px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+.botonCarrito2:hover {
   background-color: #ebc3db;
   border-color: #ebc3db;
 }

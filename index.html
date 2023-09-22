@@ -222,6 +222,7 @@
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the
                             card's content.</p>
+                        <p class="card-text">Valor sin iva</p>
                         <span class="precio">$3500</span>
                         <button class="botonCompra">Agregar</button>
                     </div>
@@ -237,6 +238,7 @@
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the
                             card's content.</p>
+                        <p class="card-text">Valor sin iva</p>
                         <span class="precio">$2000</span>
                         <button class="botonCompra">Agregar</button>
                     </div>
@@ -252,6 +254,7 @@
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the
                             card's content.</p>
+                        <p class="card-text">Valor sin iva</p>
                         <span class="precio">$7000</span>
                         <button class="botonCompra">Agregar</button>
                     </div>
@@ -267,6 +270,7 @@
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the
                             card's content.</p>
+                        <p class="card-text">Valor sin iva</p>
                         <span class="precio">$5000</span>
                         <button class="botonCompra">Agregar</button>
                     </div>
@@ -284,40 +288,126 @@
 
     </section>
 
-   
 
-        <div class="container carritoCompras" >
-            <h2>Carrito</h2>
-            <table class="table">
-                <thead>
-                    <tr>
-                        <td></td>
-                        <td>Producto</td>
-                        <td>Cantidad</td>
-                        <td>Precio</td>
-                        <td></td>
-                    </tr>
-                </thead>
-                <tbody id="tbody">
 
-                </tbody>
-         
-            </table>
-            
+    <div class="container carritoCompras">
+        <h2>Carrito</h2>
+        <table class="table">
+            <thead>
+                <tr>
+                    <td></td>
+                    <td>Producto</td>
+                    <td>Cantidad</td>
+                    <td>Precio</td>
+                    <td></td>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+
+
+    <div>
+
+
+        <button class=" botonCarrito2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+            aria-controls="offcanvasRight">Finalizar compra</button>
+
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasRightLabel">Resumen </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+
+                <!--Form de compra -->
+
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1">Nombre</span>
+                    <input type="text" class="form-control" 
+                        aria-describedby="basic-addon1" value="">
+                </div>
+
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon2">Telefono</span>
+                    <input type="text" class="form-control" 
+                        aria-describedby="basic-addon1" value="">
+                </div>
+
+                
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon3">Edad</span>
+                    <input type="text" class="form-control" 
+                        aria-describedby="basic-addon1" value="">
+
+                </div>
+
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon4">Estuadias en Coder?</span>
+                    <input type="text" class="form-control" 
+                        aria-describedby="basic-addon1" value=" No ">
+
+                </div>
+
+
+                <div>
+
+                    <button class="botonCarrito3" id="finalizaCompra">Finalizar</button>
+
+                </div>
+
+
+                <!--Final a pagar-->
+
+                <div>
+                    <div class="aPagar4" id="finalPagar">
+                        Precio Final:$<span id="finalPagar">0.00</span>
+                    </div>
+                </div>
+
+            </div>
         </div>
-        
+
+
+
+
+    </div>
+
+    <div>
+
+        <button class="botonCarrito2" id="limpiarCarrito">Limpiar Carrito</button>
+
+    </div>
+
+    <!--Total a pagar sin iva-->
+    <div class="row">
         <div>
-
-         <button class="botonCarrito2" id="finalizarCompra">Finalizar Compra</button>
-
+            <div class="aPagar2" id="precioSinIva">
+                Precio sin iva: $<span id="TotalSinIva">0.00</span>
+            </div>
         </div>
 
-        <div>
 
-            <button class="botonCarrito2" id="limpiarCarrito">Limpiar Carrito</button>
-   
-           </div>
-   
+        <!--Total a pagar CON iva-->
+
+        <div>
+            <div class="aPagar3" id="precioConIva">
+                Precio con iva: $<span id="TotalConIva">0.00</span>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
 
 
 

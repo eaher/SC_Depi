@@ -148,6 +148,14 @@ footer {
 
 }
 
+
+//-------------------
+
+
+
+
+//------------
+
 //Card
 
 .card1 {
@@ -431,14 +439,37 @@ margin-top: 20px;
 min-height: 200px;
 margin-top: 20px;
 margin-bottom: 100px;
+max-width: 1000px;
+margin: 0 auto;
 
     h2{
         font-size: 20px;
         text-shadow: 0 0 10px #c85e9c;
     }
 
+    table{
+
+        width: 100%;
+        border-collapse: collapse;
+
+        th{
+
+            td{
+                max-width: 150px;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                padding: 8px; 
+                border: 1px solid #ddd; 
+            }
+        }
+
+    }
+
 
 }
+
+
 
 .botonCarrito2{
 

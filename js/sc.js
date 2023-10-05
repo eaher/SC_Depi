@@ -10,7 +10,32 @@
         }
         
         mostrarCarrito(); // Mostrar el carrito después de cargarlo
+
+        //pido ubicacion si se abre desde celu
+        if (esDispositivoMovil()) {
+            solicitarUbicacion();
+        }
     });
+
+    //Ver si es un celu
+    function esDispositivoMovil() {
+        return window.innerWidth <= 600 && window.innerHeight <= 800 && navigator.userAgent.match(/Mobi/);
+    }
+    
+    // Función para solicitar ubicación
+    function solicitarUbicacion() {
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(mostrar_posicion, gestionarErrorUbicacion);
+        } else {
+            console.error('La geolocalización no es compatible en este dispositivo.');
+        }
+    }
+    
+    // Función para manejar errores de ubicación
+    function gestionarErrorUbicacion(error) {
+        console.error(`Error al obtener la ubicación: ${error.message}`);
+    }
+    
     // Cargar el carrito desde el storage
     if (localStorage.getItem('carrito')) {
         carrito = JSON.parse(localStorage.getItem('carrito'));

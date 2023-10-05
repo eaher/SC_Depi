@@ -13,13 +13,6 @@ body {
   color: white;
 }
 
-header {
-  height: 100px;
-  width: auto;
-  background-color: white;
-  color: black;
-}
-
 nav {
   background-color: #c85e9c;
 }
@@ -129,8 +122,8 @@ footer p {
   font-weight: bold;
   width: auto;
   min-height: 30px;
-  margin: 10px;
   padding: 10px;
+  margin: 5px;
 }
 
 .aPagar3 {
@@ -141,8 +134,8 @@ footer p {
   font-weight: bold;
   width: auto;
   min-height: 30px;
-  margin: 10px;
   padding: 10px;
+  margin: 5px;
 }
 
 .aPagar4 {
@@ -227,6 +220,26 @@ footer p {
   border-radius: 5px;
   border-color: #ebc3db;
   box-shadow: 0 0 5px #c85e9c;
+}
+
+.clima {
+  margin-right: 0;
+  margin-left: 0;
+  padding: 10px;
+}
+.clima #clima #ciudad {
+  color: white;
+  margin-left: 5px;
+  padding-top: 10px;
+}
+.clima #clima #temperatura {
+  color: white;
+  margin-left: 5px;
+}
+.clima #clima #temDesc {
+  color: white;
+  margin-left: 5px;
+  padding-bottom: 5px;
 }
 
 .botonCompra {
@@ -331,9 +344,36 @@ footer p {
   border-color: #ebc3db;
 }
 
+.alerta {
+  color: red;
+  margin: 5px;
+}
+
+#paraa img {
+  width: 100px;
+  height: 150px;
+  border-radius: 5px;
+}
+
 .icono {
   height: 100px;
   width: 100px;
+  margin-right: 7px;
+}
+
+header h1 {
+  color: #ebc3db;
+  font-size: x-large;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  min-height: 150px;
+  width: auto;
+  background-color: white;
+  color: black;
 }
 
 /*# sourceMappingURL=sytles.css.map */

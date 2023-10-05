@@ -2,6 +2,38 @@
 
     height: 100px;
     width: 100px;
+    margin-right: 7px;
 
 
 }
+
+
+header{
+
+    h1{
+
+        color:#ebc3db;
+        font-size:x-large;
+      
+    }
+}
+
+.header{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    min-height: 150px;
+    width: auto;
+    background-color: white;
+    color: black;
+
+
+
+
+
+
+
+
+}
+
